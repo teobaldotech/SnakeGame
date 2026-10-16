@@ -1,49 +1,54 @@
-# Prerequisites
+(Sem assunto)
+teo machado<teobaldomachado22@gmail.com>
+Você
+==========================================
+Dependências e arquivos de compilação
+==========================================
 *.d
 
-# Object files
+Arquivos objeto
 *.o
 *.ko
 *.obj
 *.elf
 
-# Linker output
+Saídas do linker
 *.ilk
 *.map
 *.exp
 
-# Precompiled Headers
+Cabeçalhos pré-compilados
 *.gch
 *.pch
 
-# Libraries
+Bibliotecas estáticas
 *.lib
 *.a
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+Bibliotecas compartilhadas
 *.dll
 *.so
-*.so.*
+.so.
 *.dylib
 
-# Executables
+Executáveis e binários
 *.exe
 *.out
-*.app
-*.i*86
+*.app/
+.i86
 *.x86_64
 *.hex
 
-# Debug files
+Arquivos de depuração
 *.dSYM/
 *.su
 *.idb
 *.pdb
 
-# Kernel Module Compile Results
-*.mod*
+Módulos do kernel
+.mod
 *.cmd
 .tmp_versions/
 modules.order
@@ -51,5 +56,31 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-/nbproject
-snake
+==========================================
+IDE e arquivos locais
+==========================================
+
+NetBeans
+/nbproject/
+
+Projeto ou executável Snake na raiz
+/snake
+
+Arquivos temporários e de backup
+*.tmp
+*.temp
+*.bak
+*~
+
+Logs
+*.log
+
+Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+==========================================
+Diretórios de compilação comuns
+==========================================
+build/
+dist/ 
