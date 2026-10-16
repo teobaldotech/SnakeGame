@@ -1,54 +1,52 @@
-(Sem assunto)
-teo machado<teobaldomachado22@gmail.com>
-Você
-==========================================
-Dependências e arquivos de compilação
-==========================================
+# ==========================================
+# Dependências e arquivos de compilação
+# ==========================================
+
 *.d
 
-Arquivos objeto
+# Arquivos objeto
 *.o
 *.ko
 *.obj
 *.elf
 
-Saídas do linker
+# Saídas do linker
 *.ilk
 *.map
 *.exp
 
-Cabeçalhos pré-compilados
+# Cabeçalhos pré-compilados
 *.gch
 *.pch
 
-Bibliotecas estáticas
+# Bibliotecas estáticas
 *.lib
 *.a
 *.la
 *.lo
 
-Bibliotecas compartilhadas
+# Bibliotecas compartilhadas
 *.dll
 *.so
-.so.
+*.so.*
 *.dylib
 
-Executáveis e binários
+# Executáveis e binários
 *.exe
 *.out
 *.app/
-.i86
+*.i86
 *.x86_64
 *.hex
 
-Arquivos de depuração
+# Arquivos de depuração
 *.dSYM/
 *.su
 *.idb
 *.pdb
 
-Módulos do kernel
-.mod
+# Módulos do kernel
+*.mod
 *.cmd
 .tmp_versions/
 modules.order
@@ -56,31 +54,32 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-==========================================
-IDE e arquivos locais
-==========================================
+# ==========================================
+# IDE e arquivos locais
+# ==========================================
 
-NetBeans
+# NetBeans
 /nbproject/
 
-Projeto ou executável Snake na raiz
+# Projeto ou executável Snake na raiz
 /snake
 
-Arquivos temporários e de backup
+# Arquivos temporários e de backup
 *.tmp
 *.temp
 *.bak
 *~
 
-Logs
+# Logs
 *.log
 
-Arquivos do sistema operacional
+# Arquivos do sistema operacional
 .DS_Store
 Thumbs.db
 
-==========================================
-Diretórios de compilação comuns
-==========================================
+# ==========================================
+# Diretórios de compilação comuns
+# ==========================================
+
 build/
-dist/ 
+dist/
